@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/fondo4"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:onClick="OnClickCalculadora"
+        android:clickable="true"
+        android:foreground="?attr/selectableItemBackground"
+        android:text="@string/btnCalcu"
+        android:textSize="16sp"
+        android:inputType="textPersonName"
+        android:background="@drawable/button_redondeado"
+        android:textColor="@color/azulNegro"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </Button>
+
+    <Button
+        android:onClick="OnClickDatos"
+        android:clickable="true"
+        android:foreground="?attr/selectableItemBackground"
+        android:text="@string/btnDatos"
+        android:textSize="16sp"
+        android:inputType="textPersonName"
+        android:background="@drawable/button_redondeado"
+        android:textColor="@color/azulNegro"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </Button>
+
+</LinearLayout>
